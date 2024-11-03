@@ -1,0 +1,80 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.features-section {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.features-section h2 {
+    font-size: 2rem;
+    color: #2a2a8b;
+    margin-bottom: 10px;
+}
+
+.features-section p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 40px;
+    max-width: 100%;
+    margin: 0 auto 40px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.feature-content {
+    padding: 0 2rem;
+    max-width: 50%;
+    text-align: left;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.feature a {
+    color: #ff4500;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.feature-image  {
+    width: 50%;
+}
+.feature-image img {
+    max-width: 100%;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Reverse Layout */
+.feature.reverse {
+    flex-direction: row-reverse;
+}

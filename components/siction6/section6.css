@@ -1,0 +1,53 @@
+.homeGetStartedSection {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    margin: 0;
+    background-color: #f0f2f5;
+}
+
+.get-started-section {
+    background-color: #3498db;
+    color: white;
+    padding: 40px 50px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.get-started-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.get-started-subtext {
+    margin: 10px 0 0;
+    font-size: .9rem;
+    color: #ffffff;
+    line-height: 26px;
+
+}
+
+.get-started-button {
+    background-color: #00d2ff;
+    color: white;
+    border: none;
+    width: 13rem;
+    border-radius: 20px;
+    padding: 1.2rem 2rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 1rem;
+    transition: background-color 0.3s;
+}
+
+.get-started-button:hover {
+    background-color: #00a6cc;
+}

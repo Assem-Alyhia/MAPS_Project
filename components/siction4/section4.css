@@ -1,0 +1,73 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.control-panel-section {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.control-panel-section h2 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.control-panel-content {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 40px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    
+}
+
+.control-panel-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.control-panel-features {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    right: 10rem;
+
+}
+
+.feature {
+    display: flex;
+    align-items: start;
+    gap: 15px;
+
+}
+
+.feature-icon img {
+    width: 32px;
+    height: 32px;
+}
+
+.feature-text h3 {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.feature-text p {
+    opacity: .6;
+    font-size: 1rem;
+    color: #ddd;
+    line-height: 1.5;
+}
